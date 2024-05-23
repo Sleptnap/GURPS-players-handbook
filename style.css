@@ -37,7 +37,6 @@ footer {
     float:left;
     margin: 0 0 0 0;
     font-size: auto;
-    height: 100%;
 }
 
 table {
@@ -46,14 +45,15 @@ table {
 }
 .tablesint {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 .tablesint p {
 text-align: left;
 margin-left: 20px;
-margin-right: 50px;
+margin-right: 100px;
 background-color: #dee9fa;
 height: 100%;
+width: 35%;
 }
 
 a {
@@ -82,9 +82,8 @@ h1 {
     text-align: center;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #9a74c5;
+    background-color: #5979CC;
     text-decoration: underline;
-    text-underline-offset:
 }
 .img1 {
     display: flex;
