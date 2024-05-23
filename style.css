@@ -1,11 +1,19 @@
 
-.geninfo tr {
-    border: 4px solid #5979CC;
+
+.geninfo tr:nth-child(2n) {
+   background-color: #dadada;
 }
 .geninfo table {
     border-collapse: collapse;
-    margin-bottom: 10%;
-     border: 4px solid #5979CC;
+    margin-top: 40px;
+    margin-bottom: 10px;
+     border: ;
+     
+}
+.geninfo table td {
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+    
 }
 
 body {
@@ -29,12 +37,25 @@ footer {
     float:left;
     margin: 0 0 0 0;
     font-size: auto;
+    height: 100%;
 }
 
 table {
     border-collapse: collapse;
-    margin-bottom: 10%;
+    ;
 }
+.tablesint {
+    display: flex;
+    justify-content: left;
+}
+.tablesint p {
+text-align: left;
+margin-left: 20px;
+margin-right: 50px;
+background-color: #dee9fa;
+height: 100%;
+}
+
 a {
     color: black;
     text-decoration:none;
@@ -61,7 +82,9 @@ h1 {
     text-align: center;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #ebebeb;
+    background-color: #9a74c5;
+    text-decoration: underline;
+    text-underline-offset:
 }
 .img1 {
     display: flex;
