@@ -86,7 +86,7 @@ a {
     padding-top: 5px;
 }
 h1 {
-    
+
     text-align: center;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -104,3 +104,14 @@ span {
    margin-right: 50%;
     display: flex;
 }
+.imglinks {
+    display: flex;
+gap: 80px;
+margin-left: 11%;
+    margin-right: 2%;
+    text-align: justify;
+    padding-top: 20px;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
+
